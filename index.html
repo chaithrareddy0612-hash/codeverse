@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Codeverse</title>
+    <title>J.A.R.V.I.S Chatbot</title>
 </head>
 <body>
-    <h1>Welcome to Codeverse</h1>
-    <div id="chatbot"></div>
-    <script src="script.js"></script>
-    <script src="chatbot.js"></script>
+    <h1>Welcome to J.A.R.V.I.S Chatbot</h1>
+    <div>
+        <label for="photoUpload">Error Photo Upload:</label>
+        <input type="file" id="photoUpload" name="photoUpload" accept="image/*">
+        <button onclick="uploadPhoto()">Upload Photo</button>
+    </div>
+    <script>
+        function uploadPhoto() {
+            // Photo upload logic goes here
+            alert('Photo uploaded!');
+        }
+    </script>
 </body>
 </html>
